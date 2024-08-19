@@ -38,7 +38,7 @@ bot.start((ctx) => {
   // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
   const user = ctx.message.from;
   const userName = user.username ? `@${user.username}` : user.first_name;
-  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to KIATOKENTAPDROP!*
+  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to KIATOKEN TAPDROP GAME!*
 
 Click on Play Now and Tap on the coin and see your balance rise🔥 Earn tokens and anticipate huge airdrop!`, {
       reply_markup: {
